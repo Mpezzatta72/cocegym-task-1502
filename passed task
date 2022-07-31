@@ -1,0 +1,28 @@
+package en.codegym.task.pro.task15.task1502;
+
+import java.util.Scanner;
+
+/* 
+Back to basics
+*/
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Scanner output = null;
+
+        try {
+            String line = scanner.nextLine();
+            System.out.println(line.toUpperCase());
+
+        } catch (Exception e) {
+            e.printStackTrace();
+
+        } finally{
+            if (output!=null)
+                output.close();
+
+
+           }
+        }
+    }
